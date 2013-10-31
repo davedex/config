@@ -13,6 +13,8 @@ Buffers
 :e filename     Open filename in a new buffer
 :b so+Tab       Switch to buffer that partially matches 'so'
 :bd             Close the current buffer
+:ls             List buffers
+C-6             Previous buffer
 
 ---
 Movement
