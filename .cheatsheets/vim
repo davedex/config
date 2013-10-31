@@ -1,0 +1,69 @@
+---
+General
+---
+C-r             Re-do
+C-g             Show location and status
+:!              Execute shell command
+:fi C-d         Show completions of commands starting with 'fi'
+:nohl           Remove highlighting
+
+---
+Buffers
+---
+:e filename     Open filename in a new buffer
+:b so+Tab       Switch to buffer that partially matches 'so'
+:bd             Close the current buffer
+
+---
+Movement
+---
+C-f             Move forward a page
+C-b             Move backward a page
+0               Start of the line
+gg              Start of the file
+G               End of the file
+408G            Line 408
+%               Matching bracket
+
+---
+Deletion
+---
+dw              Delete the rest of the word
+d$              Delete the rest of the line
+2dd             Delete two lines
+U               Restore entire line
+
+---
+Yanking
+---
+yw              Yank a word
+
+---
+Replacing
+---
+R               Replace mode
+re              Replace character with 'e'
+ce              Correct the rest of the word
+c$              Correct the rest of the line
+:%s/old/new/gc  Replace all occurrences with a prompt
+:2,8s/old/new/g Replace occurrences between lines 2 and 8
+
+---
+Inserting
+---
+o               Insert line below
+O               Insert line above
+:r filename     Insert filename
+:r !ls          Insert directory listing
+
+---
+Tabs
+---
+gt              Next tab
+gT              Previous tab
+
+---
+Viewports
+---
+C-w C-w         Switch viewport
+C-w q           Close viewport
